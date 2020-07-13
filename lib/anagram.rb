@@ -5,7 +5,11 @@ class Anagram
   def initialize(word)
     @word = word
   end
-  def match(word)
+  def match(array)
+
+    array.split("").sort == @word
+
+    
   end
 
 end
