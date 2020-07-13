@@ -9,7 +9,7 @@ class Anagram
 
     array.split("").sort == @word
 
-    
+
   end
 
 end
